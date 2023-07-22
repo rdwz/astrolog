@@ -52,7 +52,7 @@
  ul {
    padding-inline: var(--size-4);
  }
- 
+ h1,
  h2 {
    display: grid;
    animation: var(--animation-scale-down) reverse,

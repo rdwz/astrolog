@@ -1,5 +1,5 @@
 ---
-import '~/styles/global.css'
+import '../styles/global.css'
 import Button from '~/components/Button.astro'
 ---
 
@@ -13,5 +13,20 @@ import Button from '~/components/Button.astro'
 	</head>
 	<body>
 		<h1>Astro</h1>
+		<h2>OpenProps</h2>
+
+		<details>
+			<summary>Tasks</summary>
+			<ul>
+				<li>Change the bg gradient</li>
+				<li>Remove normalize</li>
+				<li>Try the typography variables</li>
+				<li>Add some animation</li>
+				<li>Try some shadows</li>
+				<li>Make a card</li>
+			</ul>
+		</details>
+
+		<Button label="Demo" />
 	</body>
 </html>
