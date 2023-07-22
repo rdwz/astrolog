@@ -8,6 +8,12 @@ dependencies:
   astro:
     specifier: ^2.9.1
     version: 2.9.1
+  canvas-confetti:
+    specifier: ^1.6.0
+    version: 1.6.0
+  open-props:
+    specifier: ^1.5.10
+    version: 1.5.10
   postcss-jit-props:
     specifier: ^1.0.13
     version: 1.0.13(postcss@8.4.27)
@@ -1143,6 +1149,10 @@ packages:
 
   /caniuse-lite@1.0.30001517:
     resolution: {integrity: sha512-Vdhm5S11DaFVLlyiKu4hiUTkpZu+y1KA/rZZqVQfOD5YdDT/eQKlkt7NaE0WGOFgX32diqt9MiP9CAiFeRklaA==}
+    dev: false
+
+  /canvas-confetti@1.6.0:
+    resolution: {integrity: sha512-ej+w/m8Jzpv9Z7W7uJZer14Ke8P2ogsjg4ZMGIuq4iqUOqY2Jq8BNW42iGmNfRwREaaEfFIczLuZZiEVSYNHAA==}
     dev: false
 
   /ccount@2.0.1:
@@ -2446,6 +2456,10 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       mimic-fn: 4.0.0
+    dev: false
+
+  /open-props@1.5.10:
+    resolution: {integrity: sha512-iE+B7Zo0ytgeUNI38uHiBrxF5Nnv3uX8AzogBXzf7wqeNyG6oqQEEBs1gnAZdRF+h7IRO0zOGM5d9/huiNFR+w==}
     dev: false
 
   /open@9.1.0:
